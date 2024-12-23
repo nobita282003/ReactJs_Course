@@ -1,0 +1,18 @@
+/* CartPage.css */
+.total-row {
+    position: fixed; /* Đặt vị trí cố định */
+    bottom: 0; /* Gắn xuống dưới cùng */
+    left: 0; /* Đặt từ bên trái */
+    right: 0; /* Đặt từ bên phải */
+    background-color: white; /* Màu nền trắng */
+    padding: 10px; /* Khoảng cách cho padding */
+    border-top: 1px solid #ccc; /* Đường viền trên */
+    z-index: 1000; /* Đảm bảo thanh nằm trên cùng */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng cho thanh */
+  }
+  
+  /* Thêm khoảng trống cho nội dung bên trên thanh tổng */
+  body {
+    padding-bottom: 70px; /* Đảm bảo nội dung không bị che bởi thanh cố định */
+  }
+  

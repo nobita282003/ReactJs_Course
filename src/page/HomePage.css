@@ -1,0 +1,9 @@
+  .container-background {
+    background-image: url('https://png.pngtree.com/background/20230527/original/pngtree-laptop-is-located-near-several-shopping-bags-and-a-target-picture-image_2760900.jpg');
+    background-size: cover; /* Đảm bảo ảnh nền lấp đầy toàn bộ */
+    background-position: center; /* Căn giữa ảnh nền */
+    background-repeat: no-repeat; /* Không lặp lại ảnh nền */
+    min-height: 100vh; /* Đảm bảo Container có chiều cao đủ lớn */
+    padding: 20px; /* Nếu cần, bạn có thể thêm padding để cách phần tử con */
+  }
+  
